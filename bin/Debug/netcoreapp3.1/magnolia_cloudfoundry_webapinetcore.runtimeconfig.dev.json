@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/magnolialabs/.dotnet/store/|arch|/|tfm|",
+      "/Users/magnolialabs/.nuget/packages"
+    ]
+  }
+}

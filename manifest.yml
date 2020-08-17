@@ -1,0 +1,11 @@
+applications:
+- name: magnolia_cloudfoundry_webapinetcore
+  disk_quota: 1G
+  instances: 1
+  memory: 1G
+  buildpacks:
+  - dotnet_core_buildpack
+  routes:
+  - route: magnoliaapi.cfapps.io
+  stack: cflinuxfs3
+  
